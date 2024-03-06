@@ -29,3 +29,15 @@ p {
 h3 {
   margin: 5px;
 }
+
+@media screen and (max-width: 748px) {
+  body {
+    margin: 0.5rem 1rem;
+  }
+
+  p {
+    margin: 2px;
+    font-size: 18px;
+    line-height: 25px;
+  }
+}

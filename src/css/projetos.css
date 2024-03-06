@@ -10,6 +10,9 @@
 }
 
 .cards {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   background-color: #f1eddf;
   border: 1px solid black;
   border-radius: 25px;
@@ -33,4 +36,15 @@
 
 h2 {
   font-weight: bold;
+}
+
+@media screen and (max-width: 748px) {
+  body {
+    overflow: auto;
+  }
+
+  .projetos {
+    margin: 0.5rem 2rem;
+    gap: 10px;
+  }
 }

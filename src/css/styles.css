@@ -72,3 +72,18 @@ a:hover {
   cursor: pointer;
   transition: 0.7s;
 }
+
+@media screen and (max-width: 748px) {
+  main {
+    padding: 1rem;
+    margin: 0.5rem 1rem;
+  }
+
+  .imagemPerfil {
+    width: 45%;
+  }
+
+  .imagemPerfil:hover {
+    width: 50%;
+  }
+}
