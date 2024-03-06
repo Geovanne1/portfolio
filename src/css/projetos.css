@@ -45,7 +45,10 @@ h2 {
 
   .projetos {
     margin: 0.5rem 1rem;
-    padding: 15px;
     gap: 7px;
+  }
+
+  .cards {
+    padding: 10px;
   }
 }
