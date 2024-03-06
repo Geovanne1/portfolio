@@ -1,0 +1,36 @@
+.projetos {
+  margin: 30px 50px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill 33%);
+  grid-template-rows: repeat(auto-fill 33%);
+  grid-template-areas: "calculadora acordeao"
+  "news formulario"
+  "include flexbox";
+  gap: 25px;
+}
+
+.cards {
+  background-color: #f1eddf;
+  border: 1px solid black;
+  border-radius: 25px;
+  padding: 25px;
+}
+
+.cards:hover {
+  border: 2px solid rgb(132, 5, 252);
+  transition: ease-in-out;
+}
+
+.cards a {
+  text-decoration: none;
+  color: black;
+}
+
+.cards a:hover {
+  color: rgb(235, 59, 59);
+  font-weight: bold;
+}
+
+h2 {
+  font-weight: bold;
+}
